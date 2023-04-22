@@ -33,6 +33,6 @@ curl -X DELETE 'http://localhost:3003/tasks/17'
 6) To filter task based on the priority. Priority level can be low, medium, and high - 
 curl 'http://localhost:3003/tasks/priority/low'
 
-7) To sort a task by the creation time. asc for ascending and desc for descending - 
+7) To sort a task by the creation time. olderFirst for ascending and latestFirst for descending - 
 curl 'http://localhost:3003/tasks/?sort=olderFirst'
 curl 'http://localhost:3003/tasks/?sort=latestFirst'
